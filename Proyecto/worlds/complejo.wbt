@@ -1,0 +1,1903 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896257 0.5773502691896257 0.5773502691896257 2.0944
+  position 4.607157380747083e-06 4.607170408083536e-06 6.504334951276015
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3.45 3.45
+}
+Solid {
+  name "wall_1"
+  translation -1.5 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_2"
+  translation -1.25 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_3"
+  translation -1 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_4"
+  translation -0.75 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_5"
+  translation -0.5 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_6"
+  translation -0.25 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_7"
+  translation 0 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_8"
+  translation 0.25 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_9"
+  translation 0.5 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_10"
+  translation 0.75 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_11"
+  translation 1 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_12"
+  translation 1.25 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_13"
+  translation 1.5 1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_14"
+  translation -1.5 1.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_15"
+  translation 0 1.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  translation 1.25 1.25 0.01
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.8 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.02
+        radius 0.1
+      }
+    }
+  ]
+  name "goal"
+}
+Solid {
+  name "wall_16"
+  translation 1.5 1.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_17"
+  translation -1.5 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_18"
+  translation -1.25 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_19"
+  translation -1 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_20"
+  translation -0.75 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_21"
+  translation -0.5 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_22"
+  translation 0 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_23"
+  translation 0.5 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_24"
+  translation 0.75 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_25"
+  translation 1 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_26"
+  translation 1.5 1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_27"
+  translation -1.5 0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_28"
+  translation -0.5 0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_29"
+  translation 0 0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_30"
+  translation 1 0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_31"
+  translation 1.5 0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_32"
+  translation -1.5 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_33"
+  translation -1 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_34"
+  translation -0.5 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_35"
+  translation 0 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_36"
+  translation 0.25 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_37"
+  translation 0.5 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_38"
+  translation 0.75 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_39"
+  translation 1 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_40"
+  translation 1.5 0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_41"
+  translation -1.5 0.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_42"
+  translation -1 0.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_43"
+  translation -0.5 0.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_44"
+  translation 1.5 0.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_45"
+  translation -1.5 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_46"
+  translation -1.25 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_47"
+  translation -1 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_48"
+  translation -0.5 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_49"
+  translation -0.25 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_50"
+  translation 0 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_51"
+  translation 0.25 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_52"
+  translation 0.5 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_53"
+  translation 0.75 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_54"
+  translation 1 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_55"
+  translation 1.5 0 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_56"
+  translation -1.5 -0.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_57"
+  translation -0.5 -0.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_58"
+  translation 1.5 -0.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_59"
+  translation -1.5 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_60"
+  translation -1 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_61"
+  translation -0.75 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_62"
+  translation -0.5 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_63"
+  translation 0 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_64"
+  translation 0.25 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_65"
+  translation 0.5 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_66"
+  translation 0.75 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_67"
+  translation 1 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_68"
+  translation 1.25 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_69"
+  translation 1.5 -0.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_70"
+  translation -1.5 -0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_71"
+  translation -1 -0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_72"
+  translation 0 -0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_73"
+  translation 1.5 -0.75 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_74"
+  translation -1.5 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_75"
+  translation -1 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_76"
+  translation -0.5 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_77"
+  translation -0.25 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_78"
+  translation 0 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_79"
+  translation 0.25 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_80"
+  translation 0.5 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_81"
+  translation 0.75 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_82"
+  translation 1 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_83"
+  translation 1.5 -1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_84"
+  translation -1.5 -1.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+E-puck {
+  translation -1.25 -1.25 0
+  controller "controlador"
+}
+Solid {
+  name "wall_85"
+  translation 1.5 -1.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_86"
+  translation -1.5 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_87"
+  translation -1.25 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_88"
+  translation -1 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_89"
+  translation -0.75 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_90"
+  translation -0.5 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_91"
+  translation -0.25 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_92"
+  translation 0 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_93"
+  translation 0.25 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_94"
+  translation 0.5 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_95"
+  translation 0.75 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_96"
+  translation 1 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_97"
+  translation 1.25 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
+Solid {
+  name "wall_98"
+  translation 1.5 -1.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.2 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.1
+  }
+}
