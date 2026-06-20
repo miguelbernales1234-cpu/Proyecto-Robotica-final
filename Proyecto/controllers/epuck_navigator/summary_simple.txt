@@ -1,7 +1,0 @@
-=== RESUMEN DE EVALUACION EXPERIMENTAL: SIMPLE ===
-Tiempo total hasta meta: 103.42 s
-Longitud de ruta planificada: 4.0000 m
-Longitud de trayectoria ejecutada: 3.8596 m
-Diferencia (Real - Planificada): 0.1404 m
-Numero de colisiones o casi-colisiones detectadas: 1
-Error de posicion final a la meta: 0.0391 m
