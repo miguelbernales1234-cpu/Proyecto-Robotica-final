@@ -2,6 +2,16 @@
 
 Este repositorio contiene la solución para el **Proyecto Final de Robótica y Sistemas Autónomos (Código: ICI 4150)**. Se implementa un sistema de navegación autónoma en Webots para un robot móvil diferencial **E-puck** que viaja desde una posición inicial hasta una meta utilizando el algoritmo **A*** sobre una grilla de ocupación discreta, un **Filtro de Kalman Diagonal** para la fusión sensorial y control de navegación local reactiva.
 
+---
+
+## Integrantes del Grupo
+* [Completar con Nombre integrante 1]
+* [Completar con Nombre integrante 2]
+* [Completar con Nombre integrante 3]
+* [Completar con Nombre integrante 4]
+* [Completar con Nombre integrante 5]
+
+---
 
 ## 1. Tipo de Robot Utilizado y Configuración en Webots
 
