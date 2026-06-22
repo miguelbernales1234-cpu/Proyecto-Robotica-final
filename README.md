@@ -65,7 +65,7 @@ Se seleccionó la **Línea A: Planificación de rutas**:
 
 ## 5. Evitación de Obstáculos y Seguimiento de Ruta
 
-* **Seguimiento de Ruta:** El robot calcula continuamente el error de ángulo $\theta_{err}$ hacia el siguiente waypoint. Si el error angular es superior a $0.4$ radianes, el robot frena y realiza un giro en el propio eje. Si es menor, avanza hacia adelante corrigiendo el rumbo proporcionalmente con un control proporcional de orientación ($\omega = K_p \theta_{err}$). Al estar cerca del waypoint ($<6$ cm), cambia al siguiente.
+* **Seguimiento de Ruta:** El robot calcula continuamente el error de ángulo $\theta_{err}$ hacia el siguiente waypoint. Si el error angular es superior a $0.4$ radianes, el robot frena y realiza un giro en el propio eje. Si es menor, avanza hacia adelante corrigiendo el rumbo proporcionalmente con un control proporcional de orientación ($\omega = K_p \theta_{err}$). Al estar cerca del waypoint ($<4$ cm), cambia al siguiente.
 * **Evitación Local Reactiva (Braitenberg):**
   * Se utiliza un esquema de evitación continuo basado en las señales de proximidad (`ps0, ps1, ps2` a la derecha; `ps7, ps6, ps5` a la izquierda).
   * Si un obstáculo cercano estimula los sensores de un costado (como el cilindro azul de prueba en el pasillo), la diferencia de lecturas (`left_sum - right_sum`) genera una velocidad angular correctora ($\omega$) que empuja al robot suavemente al lado contrario y reduce dinámicamente su velocidad lineal de avance (hasta un 20% de $V_{max}$).
